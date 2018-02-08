@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2003
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CulinaryBot", "CulinaryBot\CulinaryBot.csproj", "{415A7AA4-E621-46DE-B048-35EA2232539B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{415A7AA4-E621-46DE-B048-35EA2232539B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{415A7AA4-E621-46DE-B048-35EA2232539B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{415A7AA4-E621-46DE-B048-35EA2232539B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{415A7AA4-E621-46DE-B048-35EA2232539B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {78146834-4E1E-422E-9BCC-0E989524F4F6}
+	EndGlobalSection
+EndGlobal
