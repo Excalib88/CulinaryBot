@@ -1,4 +1,5 @@
 ﻿using System;
+
 using System.Threading;
 using System.Threading.Tasks;
 using Telegram.Bot;
@@ -46,11 +47,6 @@ namespace CulinaryBot
 								{
 									new Telegram.Bot.Types.KeyboardButton("\U0001F4B0 Деньги \U0001F4B0"),
 									new Telegram.Bot.Types.KeyboardButton("\U0001F45B Донат \U0001F45B")
-								},
-								new[] // row 
-                                {
-									new Telegram.Bot.Types.KeyboardButton("Подписаться на рассылку"),
-									new Telegram.Bot.Types.KeyboardButton("Получить рецепт")
 								}
 							},
 							ResizeKeyboard = true
@@ -61,6 +57,7 @@ namespace CulinaryBot
 							await bot.SendTextMessageAsync(message.Chat.Id, "<b>Приветствую " + message.Chat.FirstName + "</b>" +
 								"                                                                                    " + "Это кулинарный бот, который поможет тебе приготовить вкусности.",
 								Telegram.Bot.Types.Enums.ParseMode.Html, false, false, 0, keyboard);
+							
 						}
 						offset = update.Id + 1;
 					}
