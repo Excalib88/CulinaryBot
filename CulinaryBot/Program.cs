@@ -57,16 +57,7 @@ namespace CulinaryBot
 							await bot.SendTextMessageAsync(message.Chat.Id, "<b>Приветствую " + message.Chat.FirstName + "</b>" +
 								"                                                                                    " + "Это кулинарный бот, который поможет тебе приготовить вкусности.",
 								Telegram.Bot.Types.Enums.ParseMode.Html, false, false, 0, keyboard);
-							var parse = new Parse();
-							var href = parse.AngleSharp();
-							foreach(var item in href)
-							{
-								await bot.SendTextMessageAsync(message.Chat.Id, item);
-							}
-							
-						}
-						if (message.Text == "/start")
-						{
+							Parse.GetLink();
 							Database db = new Database(message.Chat.Id.ToString(), message.Chat.Username);
 							db.CreateNewUser();
 						}

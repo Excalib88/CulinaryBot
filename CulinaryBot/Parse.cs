@@ -1,28 +1,48 @@
 ﻿using System;
-using System.Collections.Generic;
+using System.Net.Http;
+using System.Threading.Tasks;
+using System.Net;
+using System.IO;
 using System.Text;
-using System.Web;
-using AngleSharp;
-using AngleSharp.Dom;
-using AngleSharp.Dom.Html;
 using AngleSharp.Parser.Html;
 
 namespace CulinaryBot
 {
-	class Parse
+	static class Parse
 	{
-		public IEnumerable<string> AngleSharp()
+		public static String GetCode(string urlAddress)
 		{
-			List<string> hrefTags = new List<string>();
-
-			var parser = new HtmlParser();
-			var document = parser.Parse("http://russianfood.com/");
-			foreach (IElement element in document.QuerySelectorAll("a"))
+			string data = "";
+			HttpWebRequest request = (HttpWebRequest)WebRequest.Create(urlAddress);
+			HttpWebResponse response = (HttpWebResponse)request.GetResponse();
+			if (response.StatusCode == HttpStatusCode.OK)
 			{
-				hrefTags.Add(element.GetAttribute("href"));
+				Stream receiveStream = response.GetResponseStream();
+				StreamReader readStream = null;
+				if (response.CharacterSet == null)
+				{
+					readStream = new StreamReader(receiveStream);
+				}
+				else
+				{
+					readStream = new StreamReader(receiveStream, Encoding.GetEncoding(response.CharacterSet));
+				}
+				data = readStream.ReadToEnd();
+				response.Close();
+				readStream.Close();
 			}
+			return data;
+		}
 
-			return hrefTags;
+		public static void GetLink()
+		{
+			var parser = new HtmlParser();
+			var document = parser.Parse(GetCode("http://russianfood.com/"));
+
+			var blueListItemsCssSelector = document.QuerySelectorAll("a.detail");
+
+			foreach (var item in blueListItemsCssSelector)
+				Console.WriteLine(item.ToString());
 		}
 
 	}
