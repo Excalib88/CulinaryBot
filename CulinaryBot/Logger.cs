@@ -16,7 +16,7 @@ namespace CulinaryBot
 			{
 				using (StreamWriter sw = File.AppendText(path))
 				{
-					var exceptionText = $"{currentTime}: exceptionText";
+					var exceptionText = $"{currentTime}: {exception}";
 					sw.WriteLine(exceptionText);
 					Console.WriteLine(exceptionText);
 				}

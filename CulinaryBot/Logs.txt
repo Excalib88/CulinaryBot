@@ -83,3 +83,754 @@ System.FormatException: Input string was not in a correct format.
    at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
    at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
    at CulinaryBot.Program.<GetMessages>d__2.MoveNext() in C:\WORK\telegram\CulinaryBot\CulinaryBot\Program.cs:line 60
+10.02.2018 22:57:35: exceptionText
+10.02.2018 22:57:36: exceptionText
+10.02.2018 22:57:36: exceptionText
+10.02.2018 22:57:37: exceptionText
+10.02.2018 22:57:37: exceptionText
+10.02.2018 22:57:38: exceptionText
+10.02.2018 22:57:41: exceptionText
+10.02.2018 22:57:42: exceptionText
+10.02.2018 22:58:22: exceptionText
+10.02.2018 22:58:22: exceptionText
+10.02.2018 22:58:23: exceptionText
+10.02.2018 22:58:23: exceptionText
+10.02.2018 22:58:24: exceptionText
+10.02.2018 22:58:24: exceptionText
+10.02.2018 22:58:25: exceptionText
+10.02.2018 22:58:25: exceptionText
+10.02.2018 22:58:29: exceptionText
+10.02.2018 22:58:29: exceptionText
+10.02.2018 22:58:30: exceptionText
+10.02.2018 22:58:31: exceptionText
+10.02.2018 22:58:31: exceptionText
+10.02.2018 23:00:21: System.Data.SQLite.SQLiteException (0x80004005): unknown error
+Insufficient parameters supplied to the command
+   at System.Data.SQLite.SQLiteStatement.BindParameter(Int32 index, SQLiteParameter param)
+   at System.Data.SQLite.SQLiteStatement.BindParameters()
+   at System.Data.SQLite.SQLiteCommand.BuildNextCommand()
+   at System.Data.SQLite.SQLiteDataReader.NextResult()
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteNonQuery(CommandBehavior behavior)
+   at CulinaryBot.Database.CreateNewUser() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Database.cs:line 30
+   at CulinaryBot.Program.<GetMessages>d__2.MoveNext() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Program.cs:line 57
+10.02.2018 23:00:22: System.Data.SQLite.SQLiteException (0x80004005): unknown error
+Insufficient parameters supplied to the command
+   at System.Data.SQLite.SQLiteStatement.BindParameter(Int32 index, SQLiteParameter param)
+   at System.Data.SQLite.SQLiteStatement.BindParameters()
+   at System.Data.SQLite.SQLiteCommand.BuildNextCommand()
+   at System.Data.SQLite.SQLiteDataReader.NextResult()
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteNonQuery(CommandBehavior behavior)
+   at CulinaryBot.Database.CreateNewUser() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Database.cs:line 30
+   at CulinaryBot.Program.<GetMessages>d__2.MoveNext() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Program.cs:line 57
+10.02.2018 23:00:22: System.Data.SQLite.SQLiteException (0x80004005): unknown error
+Insufficient parameters supplied to the command
+   at System.Data.SQLite.SQLiteStatement.BindParameter(Int32 index, SQLiteParameter param)
+   at System.Data.SQLite.SQLiteStatement.BindParameters()
+   at System.Data.SQLite.SQLiteCommand.BuildNextCommand()
+   at System.Data.SQLite.SQLiteDataReader.NextResult()
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteNonQuery(CommandBehavior behavior)
+   at CulinaryBot.Database.CreateNewUser() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Database.cs:line 30
+   at CulinaryBot.Program.<GetMessages>d__2.MoveNext() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Program.cs:line 57
+10.02.2018 23:00:23: System.Data.SQLite.SQLiteException (0x80004005): unknown error
+Insufficient parameters supplied to the command
+   at System.Data.SQLite.SQLiteStatement.BindParameter(Int32 index, SQLiteParameter param)
+   at System.Data.SQLite.SQLiteStatement.BindParameters()
+   at System.Data.SQLite.SQLiteCommand.BuildNextCommand()
+   at System.Data.SQLite.SQLiteDataReader.NextResult()
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteNonQuery(CommandBehavior behavior)
+   at CulinaryBot.Database.CreateNewUser() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Database.cs:line 30
+   at CulinaryBot.Program.<GetMessages>d__2.MoveNext() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Program.cs:line 57
+10.02.2018 23:00:23: System.Data.SQLite.SQLiteException (0x80004005): unknown error
+Insufficient parameters supplied to the command
+   at System.Data.SQLite.SQLiteStatement.BindParameter(Int32 index, SQLiteParameter param)
+   at System.Data.SQLite.SQLiteStatement.BindParameters()
+   at System.Data.SQLite.SQLiteCommand.BuildNextCommand()
+   at System.Data.SQLite.SQLiteDataReader.NextResult()
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteNonQuery(CommandBehavior behavior)
+   at CulinaryBot.Database.CreateNewUser() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Database.cs:line 30
+   at CulinaryBot.Program.<GetMessages>d__2.MoveNext() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Program.cs:line 57
+10.02.2018 23:00:27: System.Data.SQLite.SQLiteException (0x80004005): unknown error
+Insufficient parameters supplied to the command
+   at System.Data.SQLite.SQLiteStatement.BindParameter(Int32 index, SQLiteParameter param)
+   at System.Data.SQLite.SQLiteStatement.BindParameters()
+   at System.Data.SQLite.SQLiteCommand.BuildNextCommand()
+   at System.Data.SQLite.SQLiteDataReader.NextResult()
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteNonQuery(CommandBehavior behavior)
+   at CulinaryBot.Database.CreateNewUser() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Database.cs:line 30
+   at CulinaryBot.Program.<GetMessages>d__2.MoveNext() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Program.cs:line 57
+10.02.2018 23:00:27: System.Data.SQLite.SQLiteException (0x80004005): unknown error
+Insufficient parameters supplied to the command
+   at System.Data.SQLite.SQLiteStatement.BindParameter(Int32 index, SQLiteParameter param)
+   at System.Data.SQLite.SQLiteStatement.BindParameters()
+   at System.Data.SQLite.SQLiteCommand.BuildNextCommand()
+   at System.Data.SQLite.SQLiteDataReader.NextResult()
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteNonQuery(CommandBehavior behavior)
+   at CulinaryBot.Database.CreateNewUser() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Database.cs:line 30
+   at CulinaryBot.Program.<GetMessages>d__2.MoveNext() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Program.cs:line 57
+10.02.2018 23:00:28: System.Data.SQLite.SQLiteException (0x80004005): unknown error
+Insufficient parameters supplied to the command
+   at System.Data.SQLite.SQLiteStatement.BindParameter(Int32 index, SQLiteParameter param)
+   at System.Data.SQLite.SQLiteStatement.BindParameters()
+   at System.Data.SQLite.SQLiteCommand.BuildNextCommand()
+   at System.Data.SQLite.SQLiteDataReader.NextResult()
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteNonQuery(CommandBehavior behavior)
+   at CulinaryBot.Database.CreateNewUser() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Database.cs:line 30
+   at CulinaryBot.Program.<GetMessages>d__2.MoveNext() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Program.cs:line 57
+10.02.2018 23:00:28: System.Data.SQLite.SQLiteException (0x80004005): unknown error
+Insufficient parameters supplied to the command
+   at System.Data.SQLite.SQLiteStatement.BindParameter(Int32 index, SQLiteParameter param)
+   at System.Data.SQLite.SQLiteStatement.BindParameters()
+   at System.Data.SQLite.SQLiteCommand.BuildNextCommand()
+   at System.Data.SQLite.SQLiteDataReader.NextResult()
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteNonQuery(CommandBehavior behavior)
+   at CulinaryBot.Database.CreateNewUser() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Database.cs:line 30
+   at CulinaryBot.Program.<GetMessages>d__2.MoveNext() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Program.cs:line 57
+10.02.2018 23:00:29: System.Data.SQLite.SQLiteException (0x80004005): unknown error
+Insufficient parameters supplied to the command
+   at System.Data.SQLite.SQLiteStatement.BindParameter(Int32 index, SQLiteParameter param)
+   at System.Data.SQLite.SQLiteStatement.BindParameters()
+   at System.Data.SQLite.SQLiteCommand.BuildNextCommand()
+   at System.Data.SQLite.SQLiteDataReader.NextResult()
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteNonQuery(CommandBehavior behavior)
+   at CulinaryBot.Database.CreateNewUser() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Database.cs:line 30
+   at CulinaryBot.Program.<GetMessages>d__2.MoveNext() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Program.cs:line 57
+10.02.2018 23:00:29: System.Data.SQLite.SQLiteException (0x80004005): unknown error
+Insufficient parameters supplied to the command
+   at System.Data.SQLite.SQLiteStatement.BindParameter(Int32 index, SQLiteParameter param)
+   at System.Data.SQLite.SQLiteStatement.BindParameters()
+   at System.Data.SQLite.SQLiteCommand.BuildNextCommand()
+   at System.Data.SQLite.SQLiteDataReader.NextResult()
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteNonQuery(CommandBehavior behavior)
+   at CulinaryBot.Database.CreateNewUser() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Database.cs:line 30
+   at CulinaryBot.Program.<GetMessages>d__2.MoveNext() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Program.cs:line 57
+10.02.2018 23:00:30: System.Data.SQLite.SQLiteException (0x80004005): unknown error
+Insufficient parameters supplied to the command
+   at System.Data.SQLite.SQLiteStatement.BindParameter(Int32 index, SQLiteParameter param)
+   at System.Data.SQLite.SQLiteStatement.BindParameters()
+   at System.Data.SQLite.SQLiteCommand.BuildNextCommand()
+   at System.Data.SQLite.SQLiteDataReader.NextResult()
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteNonQuery(CommandBehavior behavior)
+   at CulinaryBot.Database.CreateNewUser() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Database.cs:line 30
+   at CulinaryBot.Program.<GetMessages>d__2.MoveNext() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Program.cs:line 57
+10.02.2018 23:00:31: System.Data.SQLite.SQLiteException (0x80004005): unknown error
+Insufficient parameters supplied to the command
+   at System.Data.SQLite.SQLiteStatement.BindParameter(Int32 index, SQLiteParameter param)
+   at System.Data.SQLite.SQLiteStatement.BindParameters()
+   at System.Data.SQLite.SQLiteCommand.BuildNextCommand()
+   at System.Data.SQLite.SQLiteDataReader.NextResult()
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteNonQuery(CommandBehavior behavior)
+   at CulinaryBot.Database.CreateNewUser() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Database.cs:line 30
+   at CulinaryBot.Program.<GetMessages>d__2.MoveNext() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Program.cs:line 57
+10.02.2018 23:00:32: System.Data.SQLite.SQLiteException (0x80004005): unknown error
+Insufficient parameters supplied to the command
+   at System.Data.SQLite.SQLiteStatement.BindParameter(Int32 index, SQLiteParameter param)
+   at System.Data.SQLite.SQLiteStatement.BindParameters()
+   at System.Data.SQLite.SQLiteCommand.BuildNextCommand()
+   at System.Data.SQLite.SQLiteDataReader.NextResult()
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteNonQuery(CommandBehavior behavior)
+   at CulinaryBot.Database.CreateNewUser() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Database.cs:line 30
+   at CulinaryBot.Program.<GetMessages>d__2.MoveNext() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Program.cs:line 57
+10.02.2018 23:00:32: System.Data.SQLite.SQLiteException (0x80004005): unknown error
+Insufficient parameters supplied to the command
+   at System.Data.SQLite.SQLiteStatement.BindParameter(Int32 index, SQLiteParameter param)
+   at System.Data.SQLite.SQLiteStatement.BindParameters()
+   at System.Data.SQLite.SQLiteCommand.BuildNextCommand()
+   at System.Data.SQLite.SQLiteDataReader.NextResult()
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteNonQuery(CommandBehavior behavior)
+   at CulinaryBot.Database.CreateNewUser() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Database.cs:line 30
+   at CulinaryBot.Program.<GetMessages>d__2.MoveNext() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Program.cs:line 57
+10.02.2018 23:00:33: System.Data.SQLite.SQLiteException (0x80004005): unknown error
+Insufficient parameters supplied to the command
+   at System.Data.SQLite.SQLiteStatement.BindParameter(Int32 index, SQLiteParameter param)
+   at System.Data.SQLite.SQLiteStatement.BindParameters()
+   at System.Data.SQLite.SQLiteCommand.BuildNextCommand()
+   at System.Data.SQLite.SQLiteDataReader.NextResult()
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteNonQuery(CommandBehavior behavior)
+   at CulinaryBot.Database.CreateNewUser() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Database.cs:line 30
+   at CulinaryBot.Program.<GetMessages>d__2.MoveNext() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Program.cs:line 57
+10.02.2018 23:00:33: System.Data.SQLite.SQLiteException (0x80004005): unknown error
+Insufficient parameters supplied to the command
+   at System.Data.SQLite.SQLiteStatement.BindParameter(Int32 index, SQLiteParameter param)
+   at System.Data.SQLite.SQLiteStatement.BindParameters()
+   at System.Data.SQLite.SQLiteCommand.BuildNextCommand()
+   at System.Data.SQLite.SQLiteDataReader.NextResult()
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteNonQuery(CommandBehavior behavior)
+   at CulinaryBot.Database.CreateNewUser() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Database.cs:line 30
+   at CulinaryBot.Program.<GetMessages>d__2.MoveNext() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Program.cs:line 57
+10.02.2018 23:00:34: System.Data.SQLite.SQLiteException (0x80004005): unknown error
+Insufficient parameters supplied to the command
+   at System.Data.SQLite.SQLiteStatement.BindParameter(Int32 index, SQLiteParameter param)
+   at System.Data.SQLite.SQLiteStatement.BindParameters()
+   at System.Data.SQLite.SQLiteCommand.BuildNextCommand()
+   at System.Data.SQLite.SQLiteDataReader.NextResult()
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteNonQuery(CommandBehavior behavior)
+   at CulinaryBot.Database.CreateNewUser() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Database.cs:line 30
+   at CulinaryBot.Program.<GetMessages>d__2.MoveNext() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Program.cs:line 57
+10.02.2018 23:00:36: System.Data.SQLite.SQLiteException (0x80004005): unknown error
+Insufficient parameters supplied to the command
+   at System.Data.SQLite.SQLiteStatement.BindParameter(Int32 index, SQLiteParameter param)
+   at System.Data.SQLite.SQLiteStatement.BindParameters()
+   at System.Data.SQLite.SQLiteCommand.BuildNextCommand()
+   at System.Data.SQLite.SQLiteDataReader.NextResult()
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteNonQuery(CommandBehavior behavior)
+   at CulinaryBot.Database.CreateNewUser() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Database.cs:line 30
+   at CulinaryBot.Program.<GetMessages>d__2.MoveNext() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Program.cs:line 57
+10.02.2018 23:00:53: System.Data.SQLite.SQLiteException (0x80004005): constraint failed
+UNIQUE constraint failed: Users.Id
+   at System.Data.SQLite.SQLite3.Reset(SQLiteStatement stmt)
+   at System.Data.SQLite.SQLite3.Step(SQLiteStatement stmt)
+   at System.Data.SQLite.SQLiteDataReader.NextResult()
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteNonQuery(CommandBehavior behavior)
+   at CulinaryBot.Database.CreateNewUser() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Database.cs:line 30
+   at CulinaryBot.Program.<GetMessages>d__2.MoveNext() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Program.cs:line 57
+10.02.2018 23:00:54: System.Data.SQLite.SQLiteException (0x80004005): constraint failed
+UNIQUE constraint failed: Users.Id
+   at System.Data.SQLite.SQLite3.Reset(SQLiteStatement stmt)
+   at System.Data.SQLite.SQLite3.Step(SQLiteStatement stmt)
+   at System.Data.SQLite.SQLiteDataReader.NextResult()
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteNonQuery(CommandBehavior behavior)
+   at CulinaryBot.Database.CreateNewUser() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Database.cs:line 30
+   at CulinaryBot.Program.<GetMessages>d__2.MoveNext() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Program.cs:line 57
+10.02.2018 23:00:54: System.Data.SQLite.SQLiteException (0x80004005): constraint failed
+UNIQUE constraint failed: Users.Id
+   at System.Data.SQLite.SQLite3.Reset(SQLiteStatement stmt)
+   at System.Data.SQLite.SQLite3.Step(SQLiteStatement stmt)
+   at System.Data.SQLite.SQLiteDataReader.NextResult()
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteNonQuery(CommandBehavior behavior)
+   at CulinaryBot.Database.CreateNewUser() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Database.cs:line 30
+   at CulinaryBot.Program.<GetMessages>d__2.MoveNext() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Program.cs:line 57
+10.02.2018 23:00:55: System.Data.SQLite.SQLiteException (0x80004005): constraint failed
+UNIQUE constraint failed: Users.Id
+   at System.Data.SQLite.SQLite3.Reset(SQLiteStatement stmt)
+   at System.Data.SQLite.SQLite3.Step(SQLiteStatement stmt)
+   at System.Data.SQLite.SQLiteDataReader.NextResult()
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteNonQuery(CommandBehavior behavior)
+   at CulinaryBot.Database.CreateNewUser() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Database.cs:line 30
+   at CulinaryBot.Program.<GetMessages>d__2.MoveNext() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Program.cs:line 57
+10.02.2018 23:00:55: System.Data.SQLite.SQLiteException (0x80004005): constraint failed
+UNIQUE constraint failed: Users.Id
+   at System.Data.SQLite.SQLite3.Reset(SQLiteStatement stmt)
+   at System.Data.SQLite.SQLite3.Step(SQLiteStatement stmt)
+   at System.Data.SQLite.SQLiteDataReader.NextResult()
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteNonQuery(CommandBehavior behavior)
+   at CulinaryBot.Database.CreateNewUser() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Database.cs:line 30
+   at CulinaryBot.Program.<GetMessages>d__2.MoveNext() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Program.cs:line 57
+10.02.2018 23:00:56: System.Data.SQLite.SQLiteException (0x80004005): constraint failed
+UNIQUE constraint failed: Users.Id
+   at System.Data.SQLite.SQLite3.Reset(SQLiteStatement stmt)
+   at System.Data.SQLite.SQLite3.Step(SQLiteStatement stmt)
+   at System.Data.SQLite.SQLiteDataReader.NextResult()
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteNonQuery(CommandBehavior behavior)
+   at CulinaryBot.Database.CreateNewUser() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Database.cs:line 30
+   at CulinaryBot.Program.<GetMessages>d__2.MoveNext() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Program.cs:line 57
+10.02.2018 23:00:56: System.Data.SQLite.SQLiteException (0x80004005): constraint failed
+UNIQUE constraint failed: Users.Id
+   at System.Data.SQLite.SQLite3.Reset(SQLiteStatement stmt)
+   at System.Data.SQLite.SQLite3.Step(SQLiteStatement stmt)
+   at System.Data.SQLite.SQLiteDataReader.NextResult()
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteNonQuery(CommandBehavior behavior)
+   at CulinaryBot.Database.CreateNewUser() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Database.cs:line 30
+   at CulinaryBot.Program.<GetMessages>d__2.MoveNext() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Program.cs:line 57
+10.02.2018 23:00:57: System.Data.SQLite.SQLiteException (0x80004005): constraint failed
+UNIQUE constraint failed: Users.Id
+   at System.Data.SQLite.SQLite3.Reset(SQLiteStatement stmt)
+   at System.Data.SQLite.SQLite3.Step(SQLiteStatement stmt)
+   at System.Data.SQLite.SQLiteDataReader.NextResult()
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteNonQuery(CommandBehavior behavior)
+   at CulinaryBot.Database.CreateNewUser() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Database.cs:line 30
+   at CulinaryBot.Program.<GetMessages>d__2.MoveNext() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Program.cs:line 57
+10.02.2018 23:00:57: System.Data.SQLite.SQLiteException (0x80004005): constraint failed
+UNIQUE constraint failed: Users.Id
+   at System.Data.SQLite.SQLite3.Reset(SQLiteStatement stmt)
+   at System.Data.SQLite.SQLite3.Step(SQLiteStatement stmt)
+   at System.Data.SQLite.SQLiteDataReader.NextResult()
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteNonQuery(CommandBehavior behavior)
+   at CulinaryBot.Database.CreateNewUser() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Database.cs:line 30
+   at CulinaryBot.Program.<GetMessages>d__2.MoveNext() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Program.cs:line 57
+10.02.2018 23:00:57: System.Data.SQLite.SQLiteException (0x80004005): constraint failed
+UNIQUE constraint failed: Users.Id
+   at System.Data.SQLite.SQLite3.Reset(SQLiteStatement stmt)
+   at System.Data.SQLite.SQLite3.Step(SQLiteStatement stmt)
+   at System.Data.SQLite.SQLiteDataReader.NextResult()
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteNonQuery(CommandBehavior behavior)
+   at CulinaryBot.Database.CreateNewUser() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Database.cs:line 30
+   at CulinaryBot.Program.<GetMessages>d__2.MoveNext() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Program.cs:line 57
+10.02.2018 23:00:58: System.Data.SQLite.SQLiteException (0x80004005): constraint failed
+UNIQUE constraint failed: Users.Id
+   at System.Data.SQLite.SQLite3.Reset(SQLiteStatement stmt)
+   at System.Data.SQLite.SQLite3.Step(SQLiteStatement stmt)
+   at System.Data.SQLite.SQLiteDataReader.NextResult()
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteNonQuery(CommandBehavior behavior)
+   at CulinaryBot.Database.CreateNewUser() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Database.cs:line 30
+   at CulinaryBot.Program.<GetMessages>d__2.MoveNext() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Program.cs:line 57
+10.02.2018 23:00:58: System.Data.SQLite.SQLiteException (0x80004005): constraint failed
+UNIQUE constraint failed: Users.Id
+   at System.Data.SQLite.SQLite3.Reset(SQLiteStatement stmt)
+   at System.Data.SQLite.SQLite3.Step(SQLiteStatement stmt)
+   at System.Data.SQLite.SQLiteDataReader.NextResult()
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteNonQuery(CommandBehavior behavior)
+   at CulinaryBot.Database.CreateNewUser() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Database.cs:line 30
+   at CulinaryBot.Program.<GetMessages>d__2.MoveNext() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Program.cs:line 57
+10.02.2018 23:00:59: System.Data.SQLite.SQLiteException (0x80004005): constraint failed
+UNIQUE constraint failed: Users.Id
+   at System.Data.SQLite.SQLite3.Reset(SQLiteStatement stmt)
+   at System.Data.SQLite.SQLite3.Step(SQLiteStatement stmt)
+   at System.Data.SQLite.SQLiteDataReader.NextResult()
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteNonQuery(CommandBehavior behavior)
+   at CulinaryBot.Database.CreateNewUser() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Database.cs:line 30
+   at CulinaryBot.Program.<GetMessages>d__2.MoveNext() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Program.cs:line 57
+10.02.2018 23:00:59: System.Data.SQLite.SQLiteException (0x80004005): constraint failed
+UNIQUE constraint failed: Users.Id
+   at System.Data.SQLite.SQLite3.Reset(SQLiteStatement stmt)
+   at System.Data.SQLite.SQLite3.Step(SQLiteStatement stmt)
+   at System.Data.SQLite.SQLiteDataReader.NextResult()
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteNonQuery(CommandBehavior behavior)
+   at CulinaryBot.Database.CreateNewUser() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Database.cs:line 30
+   at CulinaryBot.Program.<GetMessages>d__2.MoveNext() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Program.cs:line 57
+10.02.2018 23:01:00: System.Data.SQLite.SQLiteException (0x80004005): constraint failed
+UNIQUE constraint failed: Users.Id
+   at System.Data.SQLite.SQLite3.Reset(SQLiteStatement stmt)
+   at System.Data.SQLite.SQLite3.Step(SQLiteStatement stmt)
+   at System.Data.SQLite.SQLiteDataReader.NextResult()
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteNonQuery(CommandBehavior behavior)
+   at CulinaryBot.Database.CreateNewUser() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Database.cs:line 30
+   at CulinaryBot.Program.<GetMessages>d__2.MoveNext() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Program.cs:line 57
+10.02.2018 23:01:00: System.Data.SQLite.SQLiteException (0x80004005): constraint failed
+UNIQUE constraint failed: Users.Id
+   at System.Data.SQLite.SQLite3.Reset(SQLiteStatement stmt)
+   at System.Data.SQLite.SQLite3.Step(SQLiteStatement stmt)
+   at System.Data.SQLite.SQLiteDataReader.NextResult()
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteNonQuery(CommandBehavior behavior)
+   at CulinaryBot.Database.CreateNewUser() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Database.cs:line 30
+   at CulinaryBot.Program.<GetMessages>d__2.MoveNext() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Program.cs:line 57
+10.02.2018 23:01:01: System.Data.SQLite.SQLiteException (0x80004005): constraint failed
+UNIQUE constraint failed: Users.Id
+   at System.Data.SQLite.SQLite3.Reset(SQLiteStatement stmt)
+   at System.Data.SQLite.SQLite3.Step(SQLiteStatement stmt)
+   at System.Data.SQLite.SQLiteDataReader.NextResult()
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteNonQuery(CommandBehavior behavior)
+   at CulinaryBot.Database.CreateNewUser() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Database.cs:line 30
+   at CulinaryBot.Program.<GetMessages>d__2.MoveNext() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Program.cs:line 57
+10.02.2018 23:01:16: System.Data.SQLite.SQLiteException (0x80004005): constraint failed
+UNIQUE constraint failed: Users.Id
+   at System.Data.SQLite.SQLite3.Reset(SQLiteStatement stmt)
+   at System.Data.SQLite.SQLite3.Step(SQLiteStatement stmt)
+   at System.Data.SQLite.SQLiteDataReader.NextResult()
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteNonQuery(CommandBehavior behavior)
+   at CulinaryBot.Database.CreateNewUser() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Database.cs:line 30
+   at CulinaryBot.Program.<GetMessages>d__2.MoveNext() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Program.cs:line 57
+10.02.2018 23:01:16: System.Data.SQLite.SQLiteException (0x80004005): constraint failed
+UNIQUE constraint failed: Users.Id
+   at System.Data.SQLite.SQLite3.Reset(SQLiteStatement stmt)
+   at System.Data.SQLite.SQLite3.Step(SQLiteStatement stmt)
+   at System.Data.SQLite.SQLiteDataReader.NextResult()
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteNonQuery(CommandBehavior behavior)
+   at CulinaryBot.Database.CreateNewUser() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Database.cs:line 30
+   at CulinaryBot.Program.<GetMessages>d__2.MoveNext() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Program.cs:line 57
+10.02.2018 23:01:17: System.Data.SQLite.SQLiteException (0x80004005): constraint failed
+UNIQUE constraint failed: Users.Id
+   at System.Data.SQLite.SQLite3.Reset(SQLiteStatement stmt)
+   at System.Data.SQLite.SQLite3.Step(SQLiteStatement stmt)
+   at System.Data.SQLite.SQLiteDataReader.NextResult()
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteNonQuery(CommandBehavior behavior)
+   at CulinaryBot.Database.CreateNewUser() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Database.cs:line 30
+   at CulinaryBot.Program.<GetMessages>d__2.MoveNext() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Program.cs:line 57
+10.02.2018 23:01:17: System.Data.SQLite.SQLiteException (0x80004005): constraint failed
+UNIQUE constraint failed: Users.Id
+   at System.Data.SQLite.SQLite3.Reset(SQLiteStatement stmt)
+   at System.Data.SQLite.SQLite3.Step(SQLiteStatement stmt)
+   at System.Data.SQLite.SQLiteDataReader.NextResult()
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteNonQuery(CommandBehavior behavior)
+   at CulinaryBot.Database.CreateNewUser() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Database.cs:line 30
+   at CulinaryBot.Program.<GetMessages>d__2.MoveNext() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Program.cs:line 57
+10.02.2018 23:01:17: System.Data.SQLite.SQLiteException (0x80004005): constraint failed
+UNIQUE constraint failed: Users.Id
+   at System.Data.SQLite.SQLite3.Reset(SQLiteStatement stmt)
+   at System.Data.SQLite.SQLite3.Step(SQLiteStatement stmt)
+   at System.Data.SQLite.SQLiteDataReader.NextResult()
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteNonQuery(CommandBehavior behavior)
+   at CulinaryBot.Database.CreateNewUser() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Database.cs:line 30
+   at CulinaryBot.Program.<GetMessages>d__2.MoveNext() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Program.cs:line 57
+10.02.2018 23:01:18: System.Data.SQLite.SQLiteException (0x80004005): constraint failed
+UNIQUE constraint failed: Users.Id
+   at System.Data.SQLite.SQLite3.Reset(SQLiteStatement stmt)
+   at System.Data.SQLite.SQLite3.Step(SQLiteStatement stmt)
+   at System.Data.SQLite.SQLiteDataReader.NextResult()
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteNonQuery(CommandBehavior behavior)
+   at CulinaryBot.Database.CreateNewUser() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Database.cs:line 30
+   at CulinaryBot.Program.<GetMessages>d__2.MoveNext() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Program.cs:line 57
+10.02.2018 23:01:19: System.Data.SQLite.SQLiteException (0x80004005): constraint failed
+UNIQUE constraint failed: Users.Id
+   at System.Data.SQLite.SQLite3.Reset(SQLiteStatement stmt)
+   at System.Data.SQLite.SQLite3.Step(SQLiteStatement stmt)
+   at System.Data.SQLite.SQLiteDataReader.NextResult()
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteNonQuery(CommandBehavior behavior)
+   at CulinaryBot.Database.CreateNewUser() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Database.cs:line 30
+   at CulinaryBot.Program.<GetMessages>d__2.MoveNext() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Program.cs:line 57
+10.02.2018 23:01:20: System.Data.SQLite.SQLiteException (0x80004005): constraint failed
+UNIQUE constraint failed: Users.Id
+   at System.Data.SQLite.SQLite3.Reset(SQLiteStatement stmt)
+   at System.Data.SQLite.SQLite3.Step(SQLiteStatement stmt)
+   at System.Data.SQLite.SQLiteDataReader.NextResult()
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteNonQuery(CommandBehavior behavior)
+   at CulinaryBot.Database.CreateNewUser() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Database.cs:line 30
+   at CulinaryBot.Program.<GetMessages>d__2.MoveNext() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Program.cs:line 57
+10.02.2018 23:18:30: System.Data.SQLite.SQLiteException (0x80004005): constraint failed
+UNIQUE constraint failed: Users.Login
+   at System.Data.SQLite.SQLite3.Reset(SQLiteStatement stmt)
+   at System.Data.SQLite.SQLite3.Step(SQLiteStatement stmt)
+   at System.Data.SQLite.SQLiteDataReader.NextResult()
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteNonQuery(CommandBehavior behavior)
+   at CulinaryBot.Database.CreateNewUser() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Database.cs:line 34
+   at CulinaryBot.Program.<GetMessages>d__2.MoveNext() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Program.cs:line 57
+10.02.2018 23:18:30: System.Data.SQLite.SQLiteException (0x80004005): constraint failed
+UNIQUE constraint failed: Users.Login
+   at System.Data.SQLite.SQLite3.Reset(SQLiteStatement stmt)
+   at System.Data.SQLite.SQLite3.Step(SQLiteStatement stmt)
+   at System.Data.SQLite.SQLiteDataReader.NextResult()
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteNonQuery(CommandBehavior behavior)
+   at CulinaryBot.Database.CreateNewUser() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Database.cs:line 34
+   at CulinaryBot.Program.<GetMessages>d__2.MoveNext() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Program.cs:line 57
+10.02.2018 23:18:34: System.Data.SQLite.SQLiteException (0x80004005): constraint failed
+UNIQUE constraint failed: Users.Login
+   at System.Data.SQLite.SQLite3.Reset(SQLiteStatement stmt)
+   at System.Data.SQLite.SQLite3.Step(SQLiteStatement stmt)
+   at System.Data.SQLite.SQLiteDataReader.NextResult()
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteNonQuery(CommandBehavior behavior)
+   at CulinaryBot.Database.CreateNewUser() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Database.cs:line 34
+   at CulinaryBot.Program.<GetMessages>d__2.MoveNext() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Program.cs:line 57
+10.02.2018 23:18:36: System.Data.SQLite.SQLiteException (0x80004005): constraint failed
+UNIQUE constraint failed: Users.Login
+   at System.Data.SQLite.SQLite3.Reset(SQLiteStatement stmt)
+   at System.Data.SQLite.SQLite3.Step(SQLiteStatement stmt)
+   at System.Data.SQLite.SQLiteDataReader.NextResult()
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteNonQuery(CommandBehavior behavior)
+   at CulinaryBot.Database.CreateNewUser() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Database.cs:line 34
+   at CulinaryBot.Program.<GetMessages>d__2.MoveNext() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Program.cs:line 57
+10.02.2018 23:18:36: System.Data.SQLite.SQLiteException (0x80004005): constraint failed
+UNIQUE constraint failed: Users.Login
+   at System.Data.SQLite.SQLite3.Reset(SQLiteStatement stmt)
+   at System.Data.SQLite.SQLite3.Step(SQLiteStatement stmt)
+   at System.Data.SQLite.SQLiteDataReader.NextResult()
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteNonQuery(CommandBehavior behavior)
+   at CulinaryBot.Database.CreateNewUser() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Database.cs:line 34
+   at CulinaryBot.Program.<GetMessages>d__2.MoveNext() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Program.cs:line 57
+10.02.2018 23:18:37: System.Data.SQLite.SQLiteException (0x80004005): constraint failed
+UNIQUE constraint failed: Users.Login
+   at System.Data.SQLite.SQLite3.Reset(SQLiteStatement stmt)
+   at System.Data.SQLite.SQLite3.Step(SQLiteStatement stmt)
+   at System.Data.SQLite.SQLiteDataReader.NextResult()
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteNonQuery(CommandBehavior behavior)
+   at CulinaryBot.Database.CreateNewUser() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Database.cs:line 34
+   at CulinaryBot.Program.<GetMessages>d__2.MoveNext() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Program.cs:line 57
+10.02.2018 23:19:33: System.Data.SQLite.SQLiteException (0x80004005): constraint failed
+UNIQUE constraint failed: Users.Login
+   at System.Data.SQLite.SQLite3.Reset(SQLiteStatement stmt)
+   at System.Data.SQLite.SQLite3.Step(SQLiteStatement stmt)
+   at System.Data.SQLite.SQLiteDataReader.NextResult()
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteNonQuery(CommandBehavior behavior)
+   at CulinaryBot.Database.CreateNewUser() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Database.cs:line 35
+   at CulinaryBot.Program.<GetMessages>d__2.MoveNext() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Program.cs:line 57
+10.02.2018 23:19:33: System.Data.SQLite.SQLiteException (0x80004005): constraint failed
+UNIQUE constraint failed: Users.Login
+   at System.Data.SQLite.SQLite3.Reset(SQLiteStatement stmt)
+   at System.Data.SQLite.SQLite3.Step(SQLiteStatement stmt)
+   at System.Data.SQLite.SQLiteDataReader.NextResult()
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteNonQuery(CommandBehavior behavior)
+   at CulinaryBot.Database.CreateNewUser() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Database.cs:line 35
+   at CulinaryBot.Program.<GetMessages>d__2.MoveNext() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Program.cs:line 57
+10.02.2018 23:19:34: System.Data.SQLite.SQLiteException (0x80004005): constraint failed
+UNIQUE constraint failed: Users.Login
+   at System.Data.SQLite.SQLite3.Reset(SQLiteStatement stmt)
+   at System.Data.SQLite.SQLite3.Step(SQLiteStatement stmt)
+   at System.Data.SQLite.SQLiteDataReader.NextResult()
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteNonQuery(CommandBehavior behavior)
+   at CulinaryBot.Database.CreateNewUser() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Database.cs:line 35
+   at CulinaryBot.Program.<GetMessages>d__2.MoveNext() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Program.cs:line 57
+10.02.2018 23:19:34: System.Data.SQLite.SQLiteException (0x80004005): constraint failed
+UNIQUE constraint failed: Users.Login
+   at System.Data.SQLite.SQLite3.Reset(SQLiteStatement stmt)
+   at System.Data.SQLite.SQLite3.Step(SQLiteStatement stmt)
+   at System.Data.SQLite.SQLiteDataReader.NextResult()
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteNonQuery(CommandBehavior behavior)
+   at CulinaryBot.Database.CreateNewUser() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Database.cs:line 35
+   at CulinaryBot.Program.<GetMessages>d__2.MoveNext() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Program.cs:line 57
+10.02.2018 23:19:35: System.Data.SQLite.SQLiteException (0x80004005): constraint failed
+UNIQUE constraint failed: Users.Login
+   at System.Data.SQLite.SQLite3.Reset(SQLiteStatement stmt)
+   at System.Data.SQLite.SQLite3.Step(SQLiteStatement stmt)
+   at System.Data.SQLite.SQLiteDataReader.NextResult()
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteNonQuery(CommandBehavior behavior)
+   at CulinaryBot.Database.CreateNewUser() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Database.cs:line 35
+   at CulinaryBot.Program.<GetMessages>d__2.MoveNext() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Program.cs:line 57
+10.02.2018 23:19:35: System.Data.SQLite.SQLiteException (0x80004005): constraint failed
+UNIQUE constraint failed: Users.Login
+   at System.Data.SQLite.SQLite3.Reset(SQLiteStatement stmt)
+   at System.Data.SQLite.SQLite3.Step(SQLiteStatement stmt)
+   at System.Data.SQLite.SQLiteDataReader.NextResult()
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteNonQuery(CommandBehavior behavior)
+   at CulinaryBot.Database.CreateNewUser() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Database.cs:line 35
+   at CulinaryBot.Program.<GetMessages>d__2.MoveNext() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Program.cs:line 57
+10.02.2018 23:19:44: System.Data.SQLite.SQLiteException (0x80004005): constraint failed
+UNIQUE constraint failed: Users.Login
+   at System.Data.SQLite.SQLite3.Reset(SQLiteStatement stmt)
+   at System.Data.SQLite.SQLite3.Step(SQLiteStatement stmt)
+   at System.Data.SQLite.SQLiteDataReader.NextResult()
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteNonQuery(CommandBehavior behavior)
+   at CulinaryBot.Database.CreateNewUser() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Database.cs:line 35
+   at CulinaryBot.Program.<GetMessages>d__2.MoveNext() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Program.cs:line 57
+10.02.2018 23:19:48: System.Data.SQLite.SQLiteException (0x80004005): constraint failed
+UNIQUE constraint failed: Users.Login
+   at System.Data.SQLite.SQLite3.Reset(SQLiteStatement stmt)
+   at System.Data.SQLite.SQLite3.Step(SQLiteStatement stmt)
+   at System.Data.SQLite.SQLiteDataReader.NextResult()
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteNonQuery(CommandBehavior behavior)
+   at CulinaryBot.Database.CreateNewUser() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Database.cs:line 35
+   at CulinaryBot.Program.<GetMessages>d__2.MoveNext() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Program.cs:line 57
+10.02.2018 23:19:48: System.Data.SQLite.SQLiteException (0x80004005): constraint failed
+UNIQUE constraint failed: Users.Login
+   at System.Data.SQLite.SQLite3.Reset(SQLiteStatement stmt)
+   at System.Data.SQLite.SQLite3.Step(SQLiteStatement stmt)
+   at System.Data.SQLite.SQLiteDataReader.NextResult()
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteNonQuery(CommandBehavior behavior)
+   at CulinaryBot.Database.CreateNewUser() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Database.cs:line 35
+   at CulinaryBot.Program.<GetMessages>d__2.MoveNext() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Program.cs:line 57
+10.02.2018 23:21:22: System.Data.SQLite.SQLiteException (0x80004005): constraint failed
+UNIQUE constraint failed: Users.Login
+   at System.Data.SQLite.SQLite3.Reset(SQLiteStatement stmt)
+   at System.Data.SQLite.SQLite3.Step(SQLiteStatement stmt)
+   at System.Data.SQLite.SQLiteDataReader.NextResult()
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteNonQuery(CommandBehavior behavior)
+   at CulinaryBot.Database.CreateNewUser() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Database.cs:line 35
+   at CulinaryBot.Program.<GetMessages>d__2.MoveNext() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Program.cs:line 57
+10.02.2018 23:21:23: System.Data.SQLite.SQLiteException (0x80004005): constraint failed
+UNIQUE constraint failed: Users.Login
+   at System.Data.SQLite.SQLite3.Reset(SQLiteStatement stmt)
+   at System.Data.SQLite.SQLite3.Step(SQLiteStatement stmt)
+   at System.Data.SQLite.SQLiteDataReader.NextResult()
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteNonQuery(CommandBehavior behavior)
+   at CulinaryBot.Database.CreateNewUser() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Database.cs:line 35
+   at CulinaryBot.Program.<GetMessages>d__2.MoveNext() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Program.cs:line 57
+10.02.2018 23:21:23: System.Data.SQLite.SQLiteException (0x80004005): constraint failed
+UNIQUE constraint failed: Users.Login
+   at System.Data.SQLite.SQLite3.Reset(SQLiteStatement stmt)
+   at System.Data.SQLite.SQLite3.Step(SQLiteStatement stmt)
+   at System.Data.SQLite.SQLiteDataReader.NextResult()
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteNonQuery(CommandBehavior behavior)
+   at CulinaryBot.Database.CreateNewUser() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Database.cs:line 35
+   at CulinaryBot.Program.<GetMessages>d__2.MoveNext() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Program.cs:line 57
+10.02.2018 23:21:24: System.Data.SQLite.SQLiteException (0x80004005): constraint failed
+UNIQUE constraint failed: Users.Login
+   at System.Data.SQLite.SQLite3.Reset(SQLiteStatement stmt)
+   at System.Data.SQLite.SQLite3.Step(SQLiteStatement stmt)
+   at System.Data.SQLite.SQLiteDataReader.NextResult()
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteNonQuery(CommandBehavior behavior)
+   at CulinaryBot.Database.CreateNewUser() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Database.cs:line 35
+   at CulinaryBot.Program.<GetMessages>d__2.MoveNext() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Program.cs:line 57
+10.02.2018 23:41:05: System.Data.SQLite.SQLiteException (0x80004005): constraint failed
+UNIQUE constraint failed: Users.Login
+   at System.Data.SQLite.SQLite3.Reset(SQLiteStatement stmt)
+   at System.Data.SQLite.SQLite3.Step(SQLiteStatement stmt)
+   at System.Data.SQLite.SQLiteDataReader.NextResult()
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteNonQuery(CommandBehavior behavior)
+   at CulinaryBot.Database.CreateNewUser() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Database.cs:line 37
+10.02.2018 23:43:46: System.Data.SQLite.SQLiteException (0x80004005): constraint failed
+UNIQUE constraint failed: Users.Login
+   at System.Data.SQLite.SQLite3.Reset(SQLiteStatement stmt)
+   at System.Data.SQLite.SQLite3.Step(SQLiteStatement stmt)
+   at System.Data.SQLite.SQLiteDataReader.NextResult()
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteNonQuery(CommandBehavior behavior)
+   at CulinaryBot.Database.CreateNewUser() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Database.cs:line 37
+10.02.2018 23:43:46: System.Data.SQLite.SQLiteException (0x80004005): constraint failed
+UNIQUE constraint failed: Users.Login
+   at System.Data.SQLite.SQLite3.Reset(SQLiteStatement stmt)
+   at System.Data.SQLite.SQLite3.Step(SQLiteStatement stmt)
+   at System.Data.SQLite.SQLiteDataReader.NextResult()
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteNonQuery(CommandBehavior behavior)
+   at CulinaryBot.Database.CreateNewUser() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Database.cs:line 37
+10.02.2018 23:44:17: System.Data.SQLite.SQLiteException (0x80004005): constraint failed
+UNIQUE constraint failed: Users.Login
+   at System.Data.SQLite.SQLite3.Reset(SQLiteStatement stmt)
+   at System.Data.SQLite.SQLite3.Step(SQLiteStatement stmt)
+   at System.Data.SQLite.SQLiteDataReader.NextResult()
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteNonQuery(CommandBehavior behavior)
+   at CulinaryBot.Database.CreateNewUser() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Database.cs:line 37
+10.02.2018 23:44:21: System.Data.SQLite.SQLiteException (0x80004005): constraint failed
+UNIQUE constraint failed: Users.Login
+   at System.Data.SQLite.SQLite3.Reset(SQLiteStatement stmt)
+   at System.Data.SQLite.SQLite3.Step(SQLiteStatement stmt)
+   at System.Data.SQLite.SQLiteDataReader.NextResult()
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteNonQuery(CommandBehavior behavior)
+   at CulinaryBot.Database.CreateNewUser() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Database.cs:line 37
+10.02.2018 23:45:05: System.Data.SQLite.SQLiteException (0x80004005): constraint failed
+UNIQUE constraint failed: Users.Login
+   at System.Data.SQLite.SQLite3.Reset(SQLiteStatement stmt)
+   at System.Data.SQLite.SQLite3.Step(SQLiteStatement stmt)
+   at System.Data.SQLite.SQLiteDataReader.NextResult()
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteNonQuery(CommandBehavior behavior)
+   at CulinaryBot.Database.CreateNewUser() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Database.cs:line 37
+10.02.2018 23:46:51: System.Data.SQLite.SQLiteException (0x80004005): constraint failed
+UNIQUE constraint failed: Users.Login
+   at System.Data.SQLite.SQLite3.Reset(SQLiteStatement stmt)
+   at System.Data.SQLite.SQLite3.Step(SQLiteStatement stmt)
+   at System.Data.SQLite.SQLiteDataReader.NextResult()
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteNonQuery(CommandBehavior behavior)
+   at CulinaryBot.Database.CreateNewUser() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Database.cs:line 37
+10.02.2018 23:47:49: System.Data.SQLite.SQLiteException (0x80004005): constraint failed
+UNIQUE constraint failed: Users.Login
+   at System.Data.SQLite.SQLite3.Reset(SQLiteStatement stmt)
+   at System.Data.SQLite.SQLite3.Step(SQLiteStatement stmt)
+   at System.Data.SQLite.SQLiteDataReader.NextResult()
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteNonQuery(CommandBehavior behavior)
+   at CulinaryBot.Database.CreateNewUser() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Database.cs:line 37
+10.02.2018 23:49:45: System.Data.SQLite.SQLiteException (0x80004005): SQL logic error
+table Users has 3 columns but 4 values were supplied
+   at System.Data.SQLite.SQLite3.Prepare(SQLiteConnection cnn, String strSql, SQLiteStatement previous, UInt32 timeoutMS, String& strRemain)
+   at System.Data.SQLite.SQLiteCommand.BuildNextCommand()
+   at System.Data.SQLite.SQLiteDataReader.NextResult()
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteNonQuery(CommandBehavior behavior)
+   at CulinaryBot.Database.CreateNewUser() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Database.cs:line 37

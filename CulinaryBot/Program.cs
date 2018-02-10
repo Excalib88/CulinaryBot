@@ -45,13 +45,13 @@ namespace CulinaryBot
 							Keyboard = new[] {
 								new[]
 								{
-									new Telegram.Bot.Types.KeyboardButton("\U0001F4B0 Деньги \U0001F4B0"),
-									new Telegram.Bot.Types.KeyboardButton("\U0001F45B Донат \U0001F45B")
+									new Telegram.Bot.Types.KeyboardButton("\U0001F4B0 Получить рецепт \U0001F4B0"),
+									new Telegram.Bot.Types.KeyboardButton("\U0001F45B Отправить доработку \U0001F45B")
 								}
 							},
 							ResizeKeyboard = true
 						};
-
+						
 						if (message.Text == "/start")
 						{
 							await bot.SendTextMessageAsync(message.Chat.Id, "<b>Приветствую " + message.Chat.FirstName + "</b>" +
@@ -65,6 +65,12 @@ namespace CulinaryBot
 							}
 							
 						}
+						if (message.Text == "/start")
+						{
+							Database db = new Database(message.Chat.Id.ToString(), message.Chat.Username);
+							db.CreateNewUser();
+						}
+						
 						offset = update.Id + 1;
 					}
 				}
@@ -72,6 +78,7 @@ namespace CulinaryBot
 			catch (Exception ex)
 			{
 				Logger.SendLogToFile(ex.ToString());
+				return;
 			}
 		}
 	}
