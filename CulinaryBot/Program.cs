@@ -1,13 +1,14 @@
 ﻿using System;
-
 using System.Threading;
 using System.Threading.Tasks;
 using Telegram.Bot;
+using System.Data.SQLite;
 
 namespace CulinaryBot
 {
 	class Program
 	{
+		
 		const string TOKEN = "484848836:AAGg2EXlGFJTVZC5BZPRJfdMnyGiK17ETrc";
 		static void Main(string[] args)
 		{
@@ -51,7 +52,11 @@ namespace CulinaryBot
 							},
 							ResizeKeyboard = true
 						};
-
+						if (message.Text == "/reg")
+						{
+							Database db = new Database("1", "2");
+							db.CreateNewUser();
+						}
 						if (message.Text == "/start")
 						{
 							await bot.SendTextMessageAsync(message.Chat.Id, "<b>Приветствую " + message.Chat.FirstName + "</b>" +
