@@ -1090,6 +1090,7 @@ Parameter name: name
    at CulinaryBot.Parse.GetCode(String urlAddress) in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Parse.cs:line 28
    at CulinaryBot.Parse.GetLink() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Parse.cs:line 40
    at CulinaryBot.Program.<GetMessages>d__2.MoveNext() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Program.cs:line 60
+<<<<<<< HEAD
 11.02.2018 1:13:28: System.InvalidOperationException: The character set provided in ContentType is invalid. Cannot read content as string using an invalid character set. ---> System.ArgumentException: 'windows-1251' is not a supported encoding name. For information on defining a custom encoding, see the documentation for the Encoding.RegisterProvider method.
 Parameter name: name
    at System.Globalization.EncodingTable.internalGetCodePageFromName(String name)
@@ -1153,3 +1154,82 @@ Parameter name: name
    at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
    at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
    at CulinaryBot.Program.<GetMessages>d__2.MoveNext() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Program.cs:line 61
+=======
+12.02.2018 20:58:19: System.ArgumentException: The path is not of a legal form.
+   at System.IO.Path.GetFullPath(String path)
+   at System.Net.WebClient.GetUri(String address)
+   at System.Net.WebClient.DownloadString(String address)
+   at CulinaryBot.Parse.GetCode(String urlAddress) in C:\Users\Damir\Documents\GitHub\CulinaryBot\CulinaryBot\Parse.cs:line 17
+   at CulinaryBot.Parse.GetLink() in C:\Users\Damir\Documents\GitHub\CulinaryBot\CulinaryBot\Parse.cs:line 43
+   at CulinaryBot.Program.<GetMessages>d__2.MoveNext() in C:\Users\Damir\Documents\GitHub\CulinaryBot\CulinaryBot\Program.cs:line 60
+12.02.2018 20:58:20: System.ArgumentException: The path is not of a legal form.
+   at System.IO.Path.GetFullPath(String path)
+   at System.Net.WebClient.GetUri(String address)
+   at System.Net.WebClient.DownloadString(String address)
+   at CulinaryBot.Parse.GetCode(String urlAddress) in C:\Users\Damir\Documents\GitHub\CulinaryBot\CulinaryBot\Parse.cs:line 17
+   at CulinaryBot.Parse.GetLink() in C:\Users\Damir\Documents\GitHub\CulinaryBot\CulinaryBot\Parse.cs:line 43
+   at CulinaryBot.Program.<GetMessages>d__2.MoveNext() in C:\Users\Damir\Documents\GitHub\CulinaryBot\CulinaryBot\Program.cs:line 60
+12.02.2018 20:58:21: System.ArgumentException: The path is not of a legal form.
+   at System.IO.Path.GetFullPath(String path)
+   at System.Net.WebClient.GetUri(String address)
+   at System.Net.WebClient.DownloadString(String address)
+   at CulinaryBot.Parse.GetCode(String urlAddress) in C:\Users\Damir\Documents\GitHub\CulinaryBot\CulinaryBot\Parse.cs:line 17
+   at CulinaryBot.Parse.GetLink() in C:\Users\Damir\Documents\GitHub\CulinaryBot\CulinaryBot\Parse.cs:line 43
+   at CulinaryBot.Program.<GetMessages>d__2.MoveNext() in C:\Users\Damir\Documents\GitHub\CulinaryBot\CulinaryBot\Program.cs:line 60
+12.02.2018 20:58:21: System.ArgumentException: The path is not of a legal form.
+   at System.IO.Path.GetFullPath(String path)
+   at System.Net.WebClient.GetUri(String address)
+   at System.Net.WebClient.DownloadString(String address)
+   at CulinaryBot.Parse.GetCode(String urlAddress) in C:\Users\Damir\Documents\GitHub\CulinaryBot\CulinaryBot\Parse.cs:line 17
+   at CulinaryBot.Parse.GetLink() in C:\Users\Damir\Documents\GitHub\CulinaryBot\CulinaryBot\Parse.cs:line 43
+   at CulinaryBot.Program.<GetMessages>d__2.MoveNext() in C:\Users\Damir\Documents\GitHub\CulinaryBot\CulinaryBot\Program.cs:line 60
+12.02.2018 20:58:22: System.ArgumentException: The path is not of a legal form.
+   at System.IO.Path.GetFullPath(String path)
+   at System.Net.WebClient.GetUri(String address)
+   at System.Net.WebClient.DownloadString(String address)
+   at CulinaryBot.Parse.GetCode(String urlAddress) in C:\Users\Damir\Documents\GitHub\CulinaryBot\CulinaryBot\Parse.cs:line 17
+   at CulinaryBot.Parse.GetLink() in C:\Users\Damir\Documents\GitHub\CulinaryBot\CulinaryBot\Parse.cs:line 43
+   at CulinaryBot.Program.<GetMessages>d__2.MoveNext() in C:\Users\Damir\Documents\GitHub\CulinaryBot\CulinaryBot\Program.cs:line 60
+12.02.2018 20:58:23: System.ArgumentException: The path is not of a legal form.
+   at System.IO.Path.GetFullPath(String path)
+   at System.Net.WebClient.GetUri(String address)
+   at System.Net.WebClient.DownloadString(String address)
+   at CulinaryBot.Parse.GetCode(String urlAddress) in C:\Users\Damir\Documents\GitHub\CulinaryBot\CulinaryBot\Parse.cs:line 17
+   at CulinaryBot.Parse.GetLink() in C:\Users\Damir\Documents\GitHub\CulinaryBot\CulinaryBot\Parse.cs:line 43
+   at CulinaryBot.Program.<GetMessages>d__2.MoveNext() in C:\Users\Damir\Documents\GitHub\CulinaryBot\CulinaryBot\Program.cs:line 60
+12.02.2018 20:58:23: System.ArgumentException: The path is not of a legal form.
+   at System.IO.Path.GetFullPath(String path)
+   at System.Net.WebClient.GetUri(String address)
+   at System.Net.WebClient.DownloadString(String address)
+   at CulinaryBot.Parse.GetCode(String urlAddress) in C:\Users\Damir\Documents\GitHub\CulinaryBot\CulinaryBot\Parse.cs:line 17
+   at CulinaryBot.Parse.GetLink() in C:\Users\Damir\Documents\GitHub\CulinaryBot\CulinaryBot\Parse.cs:line 43
+   at CulinaryBot.Program.<GetMessages>d__2.MoveNext() in C:\Users\Damir\Documents\GitHub\CulinaryBot\CulinaryBot\Program.cs:line 60
+12.02.2018 20:58:24: System.ArgumentException: The path is not of a legal form.
+   at System.IO.Path.GetFullPath(String path)
+   at System.Net.WebClient.GetUri(String address)
+   at System.Net.WebClient.DownloadString(String address)
+   at CulinaryBot.Parse.GetCode(String urlAddress) in C:\Users\Damir\Documents\GitHub\CulinaryBot\CulinaryBot\Parse.cs:line 17
+   at CulinaryBot.Parse.GetLink() in C:\Users\Damir\Documents\GitHub\CulinaryBot\CulinaryBot\Parse.cs:line 43
+   at CulinaryBot.Program.<GetMessages>d__2.MoveNext() in C:\Users\Damir\Documents\GitHub\CulinaryBot\CulinaryBot\Program.cs:line 60
+12.02.2018 20:58:25: System.ArgumentException: The path is not of a legal form.
+   at System.IO.Path.GetFullPath(String path)
+   at System.Net.WebClient.GetUri(String address)
+   at System.Net.WebClient.DownloadString(String address)
+   at CulinaryBot.Parse.GetCode(String urlAddress) in C:\Users\Damir\Documents\GitHub\CulinaryBot\CulinaryBot\Parse.cs:line 17
+   at CulinaryBot.Parse.GetLink() in C:\Users\Damir\Documents\GitHub\CulinaryBot\CulinaryBot\Parse.cs:line 43
+   at CulinaryBot.Program.<GetMessages>d__2.MoveNext() in C:\Users\Damir\Documents\GitHub\CulinaryBot\CulinaryBot\Program.cs:line 60
+12.02.2018 20:58:25: System.ArgumentException: The path is not of a legal form.
+   at System.IO.Path.GetFullPath(String path)
+   at System.Net.WebClient.GetUri(String address)
+   at System.Net.WebClient.DownloadString(String address)
+   at CulinaryBot.Parse.GetCode(String urlAddress) in C:\Users\Damir\Documents\GitHub\CulinaryBot\CulinaryBot\Parse.cs:line 17
+   at CulinaryBot.Parse.GetLink() in C:\Users\Damir\Documents\GitHub\CulinaryBot\CulinaryBot\Parse.cs:line 43
+   at CulinaryBot.Program.<GetMessages>d__2.MoveNext() in C:\Users\Damir\Documents\GitHub\CulinaryBot\CulinaryBot\Program.cs:line 60
+12.02.2018 20:58:26: System.ArgumentException: The path is not of a legal form.
+   at System.IO.Path.GetFullPath(String path)
+   at System.Net.WebClient.GetUri(String address)
+   at System.Net.WebClient.DownloadString(String address)
+   at CulinaryBot.Parse.GetCode(String urlAddress) in C:\Users\Damir\Documents\GitHub\CulinaryBot\CulinaryBot\Parse.cs:line 17
+   at CulinaryBot.Parse.GetLink() in C:\Users\Damir\Documents\GitHub\CulinaryBot\CulinaryBot\Parse.cs:line 43
+   at CulinaryBot.Program.<GetMessages>d__2.MoveNext() in C:\Users\Damir\Documents\GitHub\CulinaryBot\CulinaryBot\Program.cs:line 60
+>>>>>>> c622df67c4b5985f9729c27f5c4c38f8a2ee008f
