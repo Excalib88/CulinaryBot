@@ -10,103 +10,77 @@ using AngleSharp.Extensions;
 
 namespace CulinaryBot
 {
-	class Parse
-	{
-<<<<<<< HEAD
-		readonly HttpClient client;
-		readonly string url = "http://russianfood.com/";
-
-		public Parse()
-		{
-			client = new HttpClient();
-		}
-
-		public async Task<string> GetSourceByPage()
-		{
-			var response = await client.GetAsync(url);
-			string source = null;
-
-			if (response != null && response.StatusCode == HttpStatusCode.OK)
-			{
-				source = await response.Content.ReadAsStringAsync();
-			}
-			GetLink(source);
-			return source;
-		}
-
-		public static void GetLink(string source)
-		{
-			var parser = new HtmlParser();
-			var document = parser.Parse(source);
-			var emphasize = document.QuerySelector("a");
-
-			Console.WriteLine(emphasize.ToHtml());   //<em> bold <u>and</u> italic </em>
-			Console.WriteLine(emphasize.Text());   //boldanditalic
-			Console.WriteLine(emphasize.InnerHtml);  // bold <u>and</u> italic
-			Console.WriteLine(emphasize.OuterHtml);  //<em> bold <u>and</u> italic </em>
-			Console.WriteLine(emphasize.TextContent);// bold and italic 
-			
-=======
+	static class Parse
+	{ 
 		static public string baseUrl = "https://andychef.ru/";
-
 
 		public static String GetCode(string urlAddress)
 		{
 			string data = "";
 			WebClient wc = new WebClient();
 			data = wc.DownloadString(urlAddress);
-			Console.WriteLine(data);
-			FindLink(data);
-			return data;
+			//Console.WriteLine(data);
+			return FindLink(data); ;
 		}
 
-		public static void GetLinkForRecipe(string catalog)
+		public static string GetLinkForRecipe(string catalog)
 		{
 			switch (catalog)
 			{
 				case "Десерт":
-					GetCode(baseUrl + "deserts/");
+					return GetCode(baseUrl + "deserts/");
 					break;
 				case "Закуски":
-					GetCode(baseUrl + "zakuski/");
+					return GetCode(baseUrl + "zakuski/");
 					break;
 				case "Мясо":
-					GetCode(baseUrl + "myaso/");
+					return GetCode(baseUrl + "myaso/");
 					break;
 				case "Напитки":
-					GetCode(baseUrl + "napitki/");
+					return GetCode(baseUrl + "napitki/");
 					break;
 				case "Паста":
-					GetCode(baseUrl + "pasta/");
+					return GetCode(baseUrl + "pasta/");
 					break;
 				case "Салаты":
-					GetCode(baseUrl + "salat/");
+					return GetCode(baseUrl + "salat/");
 					break;
 				case "Соусы":
-					GetCode(baseUrl + "sous/");
+					return GetCode(baseUrl + "sous/");
 					break;
 				case "Супы":
-					GetCode(baseUrl + "soup/");
+					return GetCode(baseUrl + "soup/");
 					break;
 				default:
 					{
 						Logger.SendLogToFile("Введённый каталог не найден!");
+						return "Error";
 						break;
 					}
 			}
->>>>>>> c622df67c4b5985f9729c27f5c4c38f8a2ee008f
+			return String.Empty;
 		}
-		public static void FindLink(string page)
+		public static string FindLink(string page)
 		{
-			string pattern = @"\b(\d+\W?руб)";
+			string pattern = @"(?<=><a href=)(.*)(?= >)";
 			Regex regex = new Regex(pattern);
 
 			// Достигаем того же результата что и в предыдущем примере, 
 			// используя метод Regex.Matches() возвращающий MatchCollection
+			var array = new string[20];
+			int i = 0;
 			foreach (Match match in regex.Matches(page))
 			{
-				Console.WriteLine(match.Groups[1].Value);
+				array[i] = match.Groups[1].Value;
+				i++;
 			}
+			for (int j = 0; j<i;j++ )
+			{
+				Console.WriteLine(array[j].Replace("\"", String.Empty));
+			}
+			Random rand = new Random();
+			int k = rand.Next(0, 19);
+			return array[k];
 		}
 	}
 }
