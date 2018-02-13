@@ -1090,3 +1090,66 @@ Parameter name: name
    at CulinaryBot.Parse.GetCode(String urlAddress) in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Parse.cs:line 28
    at CulinaryBot.Parse.GetLink() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Parse.cs:line 40
    at CulinaryBot.Program.<GetMessages>d__2.MoveNext() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Program.cs:line 60
+11.02.2018 1:13:28: System.InvalidOperationException: The character set provided in ContentType is invalid. Cannot read content as string using an invalid character set. ---> System.ArgumentException: 'windows-1251' is not a supported encoding name. For information on defining a custom encoding, see the documentation for the Encoding.RegisterProvider method.
+Parameter name: name
+   at System.Globalization.EncodingTable.internalGetCodePageFromName(String name)
+   at System.Globalization.EncodingTable.GetCodePageFromName(String name)
+   at System.Text.Encoding.GetEncoding(String name)
+   at System.Net.Http.HttpContent.ReadBufferAsString(ArraySegment`1 buffer, HttpContentHeaders headers)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpContent.ReadBufferAsString(ArraySegment`1 buffer, HttpContentHeaders headers)
+   at System.Net.Http.HttpContent.ReadBufferedContentAsString()
+   at System.Net.Http.HttpContent.<>c.<ReadAsStringAsync>b__36_0(HttpContent s)
+   at System.Net.Http.HttpContent.<WaitAndReturnAsync>d__62`2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at CulinaryBot.Parse.<GetSourceByPage>d__3.MoveNext() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Parse.cs:line 29
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at CulinaryBot.Program.<GetMessages>d__2.MoveNext() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Program.cs:line 61
+11.02.2018 1:13:29: System.InvalidOperationException: The character set provided in ContentType is invalid. Cannot read content as string using an invalid character set. ---> System.ArgumentException: 'windows-1251' is not a supported encoding name. For information on defining a custom encoding, see the documentation for the Encoding.RegisterProvider method.
+Parameter name: name
+   at System.Globalization.EncodingTable.internalGetCodePageFromName(String name)
+   at System.Globalization.EncodingTable.GetCodePageFromName(String name)
+   at System.Text.Encoding.GetEncoding(String name)
+   at System.Net.Http.HttpContent.ReadBufferAsString(ArraySegment`1 buffer, HttpContentHeaders headers)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpContent.ReadBufferAsString(ArraySegment`1 buffer, HttpContentHeaders headers)
+   at System.Net.Http.HttpContent.ReadBufferedContentAsString()
+   at System.Net.Http.HttpContent.<>c.<ReadAsStringAsync>b__36_0(HttpContent s)
+   at System.Net.Http.HttpContent.<WaitAndReturnAsync>d__62`2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at CulinaryBot.Parse.<GetSourceByPage>d__3.MoveNext() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Parse.cs:line 29
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at CulinaryBot.Program.<GetMessages>d__2.MoveNext() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Program.cs:line 61
+11.02.2018 1:13:30: System.InvalidOperationException: The character set provided in ContentType is invalid. Cannot read content as string using an invalid character set. ---> System.ArgumentException: 'windows-1251' is not a supported encoding name. For information on defining a custom encoding, see the documentation for the Encoding.RegisterProvider method.
+Parameter name: name
+   at System.Globalization.EncodingTable.internalGetCodePageFromName(String name)
+   at System.Globalization.EncodingTable.GetCodePageFromName(String name)
+   at System.Text.Encoding.GetEncoding(String name)
+   at System.Net.Http.HttpContent.ReadBufferAsString(ArraySegment`1 buffer, HttpContentHeaders headers)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpContent.ReadBufferAsString(ArraySegment`1 buffer, HttpContentHeaders headers)
+   at System.Net.Http.HttpContent.ReadBufferedContentAsString()
+   at System.Net.Http.HttpContent.<>c.<ReadAsStringAsync>b__36_0(HttpContent s)
+   at System.Net.Http.HttpContent.<WaitAndReturnAsync>d__62`2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at CulinaryBot.Parse.<GetSourceByPage>d__3.MoveNext() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Parse.cs:line 29
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at CulinaryBot.Program.<GetMessages>d__2.MoveNext() in C:\Users\Excalib\Desktop\CulinaryBot\CulinaryBot\Program.cs:line 61

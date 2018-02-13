@@ -5,44 +5,45 @@ using System.Net;
 using System.IO;
 using System.Text;
 using AngleSharp.Parser.Html;
+using AngleSharp.Extensions;
 
 namespace CulinaryBot
 {
-	static class Parse
+	class Parse
 	{
-		public static String GetCode(string urlAddress)
+		readonly HttpClient client;
+		readonly string url = "http://russianfood.com/";
+
+		public Parse()
 		{
-			string data = "";
-			HttpWebRequest request = (HttpWebRequest)WebRequest.Create(urlAddress);
-			HttpWebResponse response = (HttpWebResponse)request.GetResponse();
-			if (response.StatusCode == HttpStatusCode.OK)
-			{
-				Stream receiveStream = response.GetResponseStream();
-				StreamReader readStream = null;
-				if (response.CharacterSet == null)
-				{
-					readStream = new StreamReader(receiveStream);
-				}
-				else
-				{
-					readStream = new StreamReader(receiveStream, Encoding.GetEncoding(response.CharacterSet));
-				}
-				data = readStream.ReadToEnd();
-				response.Close();
-				readStream.Close();
-			}
-			return data;
+			client = new HttpClient();
 		}
 
-		public static void GetLink()
+		public async Task<string> GetSourceByPage()
+		{
+			var response = await client.GetAsync(url);
+			string source = null;
+
+			if (response != null && response.StatusCode == HttpStatusCode.OK)
+			{
+				source = await response.Content.ReadAsStringAsync();
+			}
+			GetLink(source);
+			return source;
+		}
+
+		public static void GetLink(string source)
 		{
 			var parser = new HtmlParser();
-			var document = parser.Parse(GetCode("http://russianfood.com/"));
+			var document = parser.Parse(source);
+			var emphasize = document.QuerySelector("a");
 
-			var blueListItemsCssSelector = document.QuerySelectorAll("a.detail");
-
-			foreach (var item in blueListItemsCssSelector)
-				Console.WriteLine(item.ToString());
+			Console.WriteLine(emphasize.ToHtml());   //<em> bold <u>and</u> italic </em>
+			Console.WriteLine(emphasize.Text());   //boldanditalic
+			Console.WriteLine(emphasize.InnerHtml);  // bold <u>and</u> italic
+			Console.WriteLine(emphasize.OuterHtml);  //<em> bold <u>and</u> italic </em>
+			Console.WriteLine(emphasize.TextContent);// bold and italic 
+			
 		}
 
 	}
